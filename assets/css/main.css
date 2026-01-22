@@ -710,6 +710,226 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Mobile First Responsive Design
+---------------------------------------------------------------*/
+@media (max-width: 768px) {
+  /* Hide CTA button on mobile */
+  .header .cta-btn {
+    display: none !important;
+  }
+  
+  /* Center content containers */
+  .container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  /* Center text elements */
+  .text-center-mobile {
+    text-align: center !important;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+  }
+  
+  /* Mobile navigation improvements */
+  .mobile-nav-toggle {
+    margin-right: 10px;
+  }
+  
+  .navmenu {
+    padding: 20px 0;
+  }
+  
+  .navmenu ul {
+    text-align: center;
+  }
+  
+  .navmenu ul li {
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .navmenu .dropdown ul {
+    position: static;
+    box-shadow: none;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 10px;
+  }
+  
+  /* Center service details */
+  .service-details .row {
+    justify-content: center;
+  }
+  
+  .service-details .col-lg-4,
+  .service-details .col-lg-8 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  
+  /* Center featured images */
+  .featured-image-wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  /* Center process boxes */
+  .process-box {
+    margin: 0 auto 20px;
+    max-width: 300px;
+  }
+  
+  /* Center benefit items */
+  .benefit-item {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .benefit-item i {
+    display: block;
+    margin: 0 auto 15px;
+  }
+  
+  /* Center FAQ items */
+  .faq-item {
+    text-align: left;
+  }
+  
+  .faq-item h3 {
+    text-align: left;
+  }
+  
+  /* Center section titles */
+  .section-title {
+    text-align: center;
+  }
+  
+  .section-title h2 {
+    text-align: center;
+  }
+  
+  /* Mobile hero adjustments */
+  .hero {
+    padding: 100px 0 60px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .hero h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .hero p {
+    font-size: 16px;
+    max-width: 100%;
+    margin: 0 auto 30px;
+  }
+  
+  /* Mobile page title adjustments */
+  .page-title .heading {
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .page-title .heading h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+  
+  .page-title .heading p {
+    font-size: 16px;
+    text-align: center;
+    max-width: 100%;
+  }
+  
+  /* Center breadcrumbs */
+  .page-title nav ol {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Mobile service images */
+  .services-img {
+    margin: 0 auto 20px;
+    display: block;
+  }
+  
+  /* Mobile buttons */
+  .btn {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+  }
+  
+  /* Mobile forms */
+  .form-control {
+    margin-bottom: 15px;
+  }
+  
+  /* Mobile footer */
+  .footer {
+    text-align: center;
+  }
+  
+  .footer .footer-about,
+  .footer .footer-links,
+  .footer .footer-contact {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Mobile social links */
+  .social-links {
+    text-align: center;
+  }
+  
+  .social-links a {
+    display: inline-block;
+    margin: 0 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Extra small mobile adjustments */
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 28px;
+  }
+  
+  .hero h2 {
+    font-size: 20px;
+  }
+  
+  .page-title .heading h1 {
+    font-size: 24px;
+  }
+  
+  .featured-image {
+    height: 250px;
+  }
+  
+  .featured-content h2 {
+    font-size: 20px;
+  }
+  
+  .featured-content p {
+    font-size: 14px;
+  }
+}
+
+/*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
