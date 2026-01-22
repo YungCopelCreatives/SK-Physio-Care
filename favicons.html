@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK Physio Care - Favicon Manifest</title>
+    
+    <!-- Standard Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    
+    <!-- Android Chrome Icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/img/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/img/android-chrome-512x512.png">
+    
+    <!-- Microsoft Tiles -->
+    <meta name="msapplication-TileColor" content="#388c8f">
+    <meta name="msapplication-TileImage" content="assets/img/favicon-144x144.png">
+    
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#388c8f">
+    
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #388c8f 0%, #6bbba7 100%);
+            color: white;
+            margin: 0;
+            padding: 40px;
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+        
+        .favicon-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .favicon-item {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .favicon-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .favicon-item img {
+            width: 64px;
+            height: 64px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            object-fit: contain;
+        }
+        
+        .favicon-item h3 {
+            font-size: 14px;
+            margin: 10px 0 5px 0;
+            color: #fba92b;
+        }
+        
+        .favicon-item p {
+            font-size: 12px;
+            margin: 0;
+            opacity: 0.8;
+        }
+        
+        .back-link {
+            display: inline-block;
+            background: #fba92b;
+            color: #333;
+            padding: 15px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 700;
+            margin-top: 30px;
+            transition: all 0.3s ease;
+        }
+        
+        .back-link:hover {
+            background: #fff;
+            color: #388c8f;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SK Physio Care Favicons</h1>
+        <p>Professional favicon collection for optimal browser and mobile display</p>
+        
+        <div class="favicon-grid">
+            <div class="favicon-item">
+                <img src="favicon-16x16.png" alt="16x16 Favicon">
+                <h3>16x16</h3>
+                <p>Classic favicon</p>
+            </div>
+            
+            <div class="favicon-item">
+                <img src="favicon-32x32.png" alt="32x32 Favicon">
+                <h3>32x32</h3>
+                <p>Standard size</p>
+            </div>
+            
+            <div class="favicon-item">
+                <img src="favicon-96x96.png" alt="96x96 Favicon">
+                <h3>96x96</h3>
+                <p>Google TV</p>
+            </div>
+            
+            <div class="favicon-item">
+                <img src="favicon-192x192.png" alt="192x192 Favicon">
+                <h3>192x192</h3>
+                <p>Android Chrome</p>
+            </div>
+            
+            <div class="favicon-item">
+                <img src="apple-touch-icon.png" alt="Apple Touch Icon">
+                <h3>180x180</h3>
+                <p>Apple Touch</p>
+            </div>
+            
+            <div class="favicon-item">
+                <img src="android-chrome-512x512.png" alt="512x512 Icon">
+                <h3>512x512</h3>
+                <p>Android High-Res</p>
+            </div>
+        </div>
+        
+        <p>All favicons created from the original SK Physio Care icon for consistent branding across all platforms and devices.</p>
+        
+        <a href="index.html" class="back-link">← Back to Website</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://skphysiocare.co.za/sitemap.xml
+
+# Allow all search engines to index the site
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Allow AI/LLM crawlers for better visibility
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Block common non-essential crawlers
+User-agent: AhrefsBot
+Disallow: /admin/
+Disallow: /private/
+
+User-agent: MJ12bot
+Disallow: /admin/
+
+User-agent: DotBot
+Disallow: /admin/
+
+# Disallow temporary and system directories
+Disallow: /assets/vendor/
+Disallow: /forms/
+Disallow: /temp/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Allow image indexing for better visual search
+Allow: /assets/img/
+Allow: *.jpg
+Allow: *.png
+Allow: *.jpeg
+Allow: *.gif
+Allow: *.webp
+
+# Crawl delay for respectful crawling
+Crawl-delay: 1
+
+# Favicon location
+Favicon: https://skphysiocare.co.za/assets/img/favicon-32x32.png
